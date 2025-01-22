@@ -1,0 +1,86 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --amber_300: #facd49;
+  --black_900: #000000;
+  --black_900_0c: #0000000c;
+  --black_900_11: #00000011;
+  --black_900_16: #00000016;
+  --black_900_19: #00000019;
+  --black_900_3f: #0000003f;
+  --blue_gray_50: #f1f2f2;
+  --dark: #222831;
+  --gray_50: #f9f8f8;
+  --gray_500: #9f9f9f;
+  --gray_900_19: #19182519;
+  --green_50: #e5f4ec;
+  --green_50_99: #e5f4ec99;
+  --green_a200: #85e6b5;
+  --green_a700: #00a34d;
+  --grey_scale_black: #191825;
+  --grey_scale_black_50: #1918257f;
+  --grey_scale_black_75: #191825bf;
+  --light: #eeeeee;
+  --medium: #393e46;
+  --orange: #ff5722;
+  --teal_800: #008f42;
+  --white: #ffffff;
+
+  /*------Shadow variables------*/
+  --shadow-xs: 0 43px 26px 0 #0000000c;
+  --shadow-sm: 0 4px 39px 0 #0000003f;
+  --shadow-md: 0 0 1px 0 #00000011;
+  --shadow-lg: 0 0 1px 0 #0000000c;
+  --shadow-xl: 0 0 1px 0 #00000019;
+  --shadow-2xl: 0 19px 19px 0 #00000016;
+
+  /*------Border radius variables------*/
+  --radius-xs: 5px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+  --radius-3xl: 32px;
+  --radius-4xl: 50px;
+
+  /*------Spacing variables------*/
+  --space-xs: 8px;
+  --space-sm: 9px;
+  --space-md: 14px;
+  --space-lg: 16px;
+  --space-xl: 18px;
+  --space-2xl: 20px;
+  --space-3xl: 24px;
+  --space-4xl: 26px;
+  --space-5xl: 32px;
+  --space-6xl: 34px;
+  --space-7xl: 36px;
+  --space-8xl: 38px;
+  --space-9xl: 64px;
+  --space-10xl: 78px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-col-end-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.flex-col-center-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
