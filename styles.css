@@ -694,7 +694,7 @@
 
 /* Testimonials Section */
 .testimonials {
-    
+    /* margin-top: 0px; */
     height: 850px;
     padding: 80px 20px;
     text-align: center;
@@ -855,6 +855,8 @@
 }
 
 .countries h1 {
+    font-size: 35px;
+    font-weight: 700;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -862,7 +864,7 @@
 .flags {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 500px;
 }
 
 .flag-container {
@@ -870,7 +872,8 @@
 }
 
 .flag-container img {
-    width: 400px;
+    width: 321px;
+    height :201px;
 }
 
 .flag-container p {
@@ -886,6 +889,7 @@
 }
 
 .partners {
+    height: 35vh;
     margin-bottom: 50px;
 }
 
@@ -900,7 +904,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 240px;
 }
 
 .partner-logo {
